@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1558595106 source:c:\users\kytung\desktop\ttud\orderp\main.cpp
+	<iostream>
+	<vector>
+
