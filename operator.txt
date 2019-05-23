@@ -1,0 +1,43 @@
+#include<iostream>
+#include<math.h>
+#define N 1000000007
+#include<vector>
+using namespace std;
+long long a, b;
+long long Add( long long a, long long b){
+    a = a%N;
+    b= b%N;
+    long long c = N-a;
+    if(c>b){ // N> a+b
+      
+        return a+b;
+    }else{ // N<= a+b < 2N suy ra ( a+b) mod N = a+b -N = b- c
+        
+        return b-c;
+    }
+}
+
+long long Mull(long long a, long long b){ // a*b = a+ a+...+a   : b lan
+    if( a< b){
+        long long temp = a;
+        a= b;
+        b = temp;
+    }
+    if(b==2) return Add(a,a);
+    if(b%2==0){
+        long long c = Mull(a,b/2) ;
+        return Add( c , c);
+    }else return  Add(Mull(a,b-1), a );
+}
+long long expMod(long long a, long long b){
+   if(b==2) return Mull(a,a);
+    if(b %2==0){
+        long long c= expMod(a, b/2);
+        return Mull(c,c);
+    }else return Mull(a, expMod(a, b-1)); 
+}
+int main(){
+    cin>>a>>b;
+    cout<<expMod(a%N, b)<<endl;
+    return 0;
+}

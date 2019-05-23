@@ -1,0 +1,25 @@
+Các thông tin nên lưu DFS
+
+d[v] thời điểm v được thăm
+f[v] thời ddiemr v dc duyệt xong
+p[v] đỉnh cha của v
+color[v]   while: chưa thăm, gray: đã thăm nhưng chưa duyệt, black: đã duyệt
+
+
+DFS(u):
+	t= t+1
+	d[u] = t
+	color[u] = G
+	for v thuoc A[u]:
+		if color[v] == while then
+			p[v]= u
+			DFS(v)
+ 
+
+DFS_G(G(V, E))
+for v thuoc V:
+	color[v] = w
+	p[v] = null
+for v thuoc V:
+	if color[v]== w then
+		DFS(v)

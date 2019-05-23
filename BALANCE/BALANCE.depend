@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1556779658 source:c:\users\kytung\desktop\ttud\balance\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+

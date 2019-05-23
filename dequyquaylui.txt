@@ -1,0 +1,10 @@
+// de quy quay lui
+
+
+Try(k){
+	for v thuoc A_k
+		if check(v, k)  {
+				x_k = v;  
+				if(k==n) Solution();
+						else Try(k+1);
+				} 

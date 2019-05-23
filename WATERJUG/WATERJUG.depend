@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1552569741 source:c:\users\thang ta bao\documents\codeblock\ttud\waterjug\main.cpp
+	<iostream>
+	<vector>
+	<queue>
+	<string.h>
+

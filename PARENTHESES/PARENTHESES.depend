@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1551320999 source:c:\users\thang ta bao\documents\codeblock\ttud\parentheses\main.cpp
+	<iostream>
+	<vector>
+	<string>
+	<stdio.h>
+	<queue>
+

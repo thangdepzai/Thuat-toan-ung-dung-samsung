@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1551924110 source:c:\users\thang ta bao\documents\codeblock\ttud\array\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+

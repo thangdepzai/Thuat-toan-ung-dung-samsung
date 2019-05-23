@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1555578698 source:c:\users\thang ta bao\documents\codeblock\ttud\machine\main.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	<algorithm>
+	<vector>
+
